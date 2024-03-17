@@ -23,6 +23,6 @@ public class EmailAuthenticator<TUserId> : Entity<TUserId>
         : base(id)
     {
         UserId = userId;
-        IsVerified = isVerified;
+        IsVerified = isVerified; 
     }
 }

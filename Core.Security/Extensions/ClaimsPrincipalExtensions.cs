@@ -19,4 +19,5 @@ public static class ClaimsPrincipalExtensions
     {
         return claimsPrincipal?.FindFirst(ClaimTypes.NameIdentifier)?.Value;
     }
+
 }
