@@ -1,4 +1,6 @@
-﻿namespace Core.ElasticSearch.Models;
+﻿using Nest;
+
+namespace Core.ElasticSearch.Models;
 
 public class ElasticSearchInsertUpdateModel : ElasticSearchModel
 {
