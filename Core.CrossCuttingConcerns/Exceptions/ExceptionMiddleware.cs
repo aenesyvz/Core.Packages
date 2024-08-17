@@ -36,7 +36,7 @@ public class ExceptionMiddleware
         }
     }
 
-    private Task HandleExceptionAsync(HttpResponse response, System.Exception exception)
+    private Task HandleExceptionAsync(HttpResponse response, dynamic exception)
     {
         response.ContentType = MediaTypeNames.Application.Json;
         _httpExceptionHandler.Response = response;
